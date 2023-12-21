@@ -1,7 +1,7 @@
-name = input('enter you name')
-
+name = input('Enter your name: ')
 
 def toCapitalLetter(name):
     name = str(name)
-    print(name.upper)
+    print(name.upper())
 
+toCapitalLetter(name)
